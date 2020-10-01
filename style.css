@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    background: url('./img/novyi.jpg') no-repeat;
+    background-size: cover;
+}
+
+.countdown-wrapper{
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#countdown{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 21%;
+    font-size: 30px;
+}
+
+.title{
+    color: #fff;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.year{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    line-height: 1;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.time{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2{
+    margin: 0 0 5px;
+}
